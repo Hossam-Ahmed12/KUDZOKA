@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ///////////////Section-0///////////// */
+
+.sec-0 .background {
+    position: absolute;
+    z-index: -3;
+    height: 400px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding-top: 15px;
+}
+
+.ins-nav-sec-0 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ins-nav-sec-0 img {
+    width: 100px;
+    height: 50px;
+}
+
+.ins-nav-sec-0 a {
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/* button {
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 7px 25px;
+    color: white;
+    top: 27px;
+    right: 53px;
+} */
+
+.but a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 27px;
+    right: 49px;
+}
+
+.div-sec-0 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 0 25px;
+    position: relative;
+
+}
+
+.ins-div-sec-0 h1 {
+    font-size: xx-large;
+    color: rgb(72, 72, 72);
+    margin-top: 50px;
+}
+
+.ins-div-sec-0 h1 span {
+    color: purple;
+}
+
+.ins-div-sec-0 p {
+    color: rgb(72, 72, 72);
+}
+
+.img-01 {
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    right: 230px;
+    top: 190px;
+    z-index: 3;
+}
+
+.img-02 {
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    right: 270px;
+    top: -40px;
+    z-index: 2;
+}
+
+.img-03 {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    right: 225px;
+    top: -40px;
+    z-index: 1;
+}
+
+.waves {
+    position: absolute;
+    top: 250px;
+    right: 150px;
+}
+
+
+/* ///////////////Section-1///////////// */
+
+.sec-1 div {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sec-1 .background {
+    position: absolute;
+    z-index: -3;
+    height: 400px;
+    width: 60%;
+    left: 250px;
+}
+
+.ul {
+    position: relative;
+}
+
+.li1 {
+    position: absolute;
+    right: 70%;
+    top: 90%;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.li1 h3,
+.li3 h3,
+.li4 h3,
+.li1 p,
+.li3 p,
+.li4 p {
+    width: fit-content;
+    margin: auto;
+}
+
+.li1 p,
+.li3 p,
+.li4 p {
+    font-size: small;
+}
+
+.li1 img,
+.li3 img,
+.li4 img {
+    margin-left: 75px;
+}
+
+.li2 {
+    position: absolute;
+    right: 72%;
+    top: 140%;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.li3 {
+    position: absolute;
+    right: 42%;
+    top: 110%;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.li4 {
+    position: absolute;
+    right: 22%;
+    top: 140%;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.li2 p {
+    position: absolute;
+    left: 65px;
+    top: 70px;
+    color: white;
+}
+
+.li2 h1 {
+    position: absolute;
+    left: 65px;
+    top: 90px;
+    color: white;
+}
+
+/* ///////////////Section-2///////////// */
+
+.sec-2 span h2,
+.sec-2 span p {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* ///////////////Footer///////////// */
+.end {
+    width: 100%;
+    position: relative;
+    top: 22px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.last .right {
+    position: absolute;
+    width: 500px;
+    height: 420px;
+    top: 237%;
+    left: 53%;
+}
+
+.store {
+    display: flex;
+    font-size: smaller;
+    position: absolute;
+    top: 275%;
+    margin-left: 30px;
+}
+
+.store span {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.icons {
+    position: absolute;
+    top: 287%;
+    margin-left: 40px;
+}
+
+.link {
+    position: absolute;
+    top: 295%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
